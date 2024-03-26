@@ -1,0 +1,5 @@
+.question {
+  font-size: var(--big-text);
+  text-align: center;
+  font-weight: 700;
+}

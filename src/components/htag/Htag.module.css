@@ -1,0 +1,7 @@
+.h1 {
+  font-size: var(--big-text);
+  text-align: center;
+}
+.h2 {
+  font-size: 32px;
+}

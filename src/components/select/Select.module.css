@@ -1,0 +1,48 @@
+.select {
+  position: relative;
+}
+.select-option {
+  font-size: 1em;
+  font-weight: 500;
+  padding: 0;
+  cursor: pointer;
+}
+.option-value {
+  padding: 0 5px;
+}
+.options {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  gap: 5px;
+  right: -5px;
+  margin-top: 10px;
+  padding: 0 5px 5px;
+  border-radius: 5px;
+  background-color: #222222;
+  max-height: 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: max-height 0.35s ease-out, visibility 0.34s ease-out, opacity 0.33s ease-out;
+}
+.options-open {
+  height: auto;
+  visibility: visible;
+  opacity: 1;
+  max-height: 500px;
+  transition: max-height 0.45s ease-in, visibility 0.45s ease-in, opacity 0.45s ease-in;
+}
+.option {
+  font-size: 1em;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: #fff;
+  color: #222222;
+  border-radius: 5px;
+  padding: 0 5px;
+  transition: all 0.2s ease-in-out;
+}
+.option:hover {
+  background-color: #222222;
+  color: #fff;
+}

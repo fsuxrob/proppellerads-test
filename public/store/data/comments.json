@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "author": "Kelly Stone",
+    "img": "/store/images/ava1.png",
+    "comment": "is it true? 😱",
+    "date": "2024-04-23T10:00:43",
+    "likes": 0
+  },
+  {
+    "id": 2,
+    "author": "Wu Jin",
+    "img": "/store/images/ava2.png",
+    "comment": "🥇 Лучший",
+    "date": "2024-03-26T18:25:43",
+    "likes": 5
+  }
+]

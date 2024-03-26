@@ -1,0 +1,46 @@
+.comment {
+  margin: 1rem;
+  display: grid;
+  grid-template-columns: 56px 1fr;
+  grid-template-areas:
+    'image content'
+    'image meta';
+  gap: 1rem;
+}
+
+.img {
+  grid-area: image;
+  border-radius: 5px;
+  width: 56px;
+  height: 56px;
+}
+
+.content {
+  grid-area: content;
+  padding: 10px;
+  background-color: #434343;
+  border-radius: 5px;
+}
+.meta {
+  grid-area: meta;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-weight: 500;
+}
+.date {
+  flex: 1;
+  text-align: right;
+  color: #a9a9a9;
+}
+.reply,
+.likes {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  font-size: 1em;
+  line-height: 1;
+  cursor: pointer;
+  color: #fff;
+}

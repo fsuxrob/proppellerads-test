@@ -1,0 +1,10 @@
+.quiz {
+  margin: 3rem 0;
+}
+.questions {
+}
+.buttons {
+  padding: 0 4rem;
+  display: flex;
+  gap: 4rem;
+}
